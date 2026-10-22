@@ -138,26 +138,8 @@ python3 check_php2shell.py --file urls.txt
 python3 check_php2shell.py https://example.com --json
 ```
 
----
 
-## Результаты проверки ваших сайтов
 
-### Проверял свои сайты:
-
-| Сайт | Статус | PHP |
-|------|--------|-----|
-| passgen.altcod.ru | 🔴 Уязвимо | 8.4.27 |
-| shamir.altcod.ru | 🔴 Уязвимо | 8.4.21 |
-| otp.altcod.ru | ⚫ Недоступен | — |
-| oc.mangazeya.ru | 🔴 Уязвимо | 7.4.33 (EOL!) |
-| mangazeya.ru | 🔴 Уязвимо | 8.0.30 (EOL!) |
-| www.mangazeya.ru | 🔴 Уязвимо | 8.0.30 (EOL!) |
-| askon-pilot.mangazeya.ru | 🟡 Подозрительно | .NET/Kestrel |
-| mx01.mangazeya.ru | 🟢 Не уязвимо | Windows (не PHP) |
-| mx02.mangazeya.ru | 🟢 Не уязвимо | Windows (не PHP) |
-| turn.mangazeya.ru | 🟢 Не уязвимо | Citrix (не PHP) |
-
----
 
 ## Сравнение с другими инструментами
 
